@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    width: 70vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 55px;
+    border-radius: 5px;
+}
+
+main div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+main div:nth-child(1) img {
+    width: 40px;
+}
+
+main h2 {
+    font-weight: 200;
+    font-size: 40px;
+    margin: 0;
+    color: green;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.inputs > input {
+    padding: 20px;
+    outline: none;
+    border: 1px solid rgb(44, 124, 44);
+    border-radius: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+form span {
+    margin: 10px;
+    color: green;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.btns input {
+    font-weight: bold;
+    color: white;
+}
+
+.btns input:nth-child(1) {
+    background-color: rgb(255, 85, 85);
+    display: flex;
+    padding: 10px 30px;
+    border: 0;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+}
+
+.btns input:nth-child(2) {
+    background-color: rgb(35, 163, 35);
+    display: flex;
+    padding: 10px 30px;
+    border: 0;
+    transition: all 250ms ease-in-out;
+    cursor: pointer;
+}
+
+.btns input:nth-child(1):hover {
+    background-color: rgba(255, 85, 85, 0.808);
+}
+
+.btns input:nth-child(2):hover {
+    background-color: rgba(35, 163, 35, 0.863);
+}
+
+/*----------------SECTION------------------ */
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+section div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section div:nth-child(1) span {
+    color: green;
+}
+
+section div:nth-child(1) button {
+    background-color: rgb(35, 163, 35);
+    display: flex;
+    padding: 10px 30px;
+    border: 0;
+    transition: 250ms;
+    cursor: pointer;
+    color: white;
+}
+
+section div:nth-child(1) button:hover {
+    background-color: rgba(35, 163, 35, 0.87);
+}
+
+section div:nth-child(2) input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 15px 0px;
+    transform: translateY(20%);
+}
+table
+{
+    background-color: rgba(39, 136, 39, 0.87);
+    color: white;
+}
